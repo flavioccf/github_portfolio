@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <strong>DT Money</strong>
+    <strong>GitHub Portfolio</strong>
 </p>
 
 <p align="center">
@@ -31,10 +31,9 @@ Typescript React Application to showcase Github Repositories
 
 ## ☑ Functionalities
 
-- Creat a list of money income and outcome
-- Show a Summary of the total income
-- Show the difference between total income vs outcome
-- Filter results based on text search
+- Creat a list of the latest GitHub Repos for the User
+- Show details of the Repository when clicked
+- Show other users profile
 
 ## 🎨 Layout
 
