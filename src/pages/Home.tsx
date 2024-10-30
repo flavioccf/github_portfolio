@@ -1,7 +1,10 @@
+import { GithubProfileProvider } from "../contexts/GithubProfileContext";
+import { Profile } from "../components/Profile";
+
 export function Home() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello Home!</h1>
-    </>
+    <GithubProfileProvider>
+      <Profile />
+    </GithubProfileProvider>
   );
 }
