@@ -16,7 +16,7 @@ export function Profile() {
 
   return (
     <>
-      <section className="w-90 md:max-w-[864px] m-auto min-h-[216px] bg-base-profile rounded-md shadow-lg mt-[-5vh] flex flex-col md:flex-row gap-10 p-10 relative">
+      <section className="w-11/12 md:max-w-[864px] m-auto min-h-[216px] bg-base-profile rounded-md shadow-lg mt-[-5vh] flex flex-col md:flex-row gap-10 p-10 relative">
         <img
           src={githubProfile?.avatar_url}
           width={150}
@@ -27,7 +27,7 @@ export function Profile() {
         <div className="py-2 flex-1 flex flex-col gap-2 items-start justify-between">
           <h2 className="text-base-title text-2xl">{githubProfile?.name}</h2>
           <p className="text-base-text text-base">{githubProfile?.bio}</p>
-          <div className="flex gap-6">
+          <div className="flex gap-x-6 gap-y-2 flex-wrap">
             <span className="text-base-subtitle text-base flex gap-2 items-center justify-center">
               <FontAwesomeIcon
                 className="text-base-label text-lg"
