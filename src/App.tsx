@@ -1,11 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import { Router } from "./Router";
+import { GithubProfileProvider } from "./contexts/GithubProfileContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Router />
-    </BrowserRouter>
+    <GithubProfileProvider>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </GithubProfileProvider>
   );
 }
 
